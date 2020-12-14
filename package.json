@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/LouisePeiffer/html-bootstrap-introduction/issues"
   },
-  "homepage": "https://github.com/LouisePeiffer/html-bootstrap-introduction#readme"
+  "homepage": "https://github.com/LouisePeiffer/html-bootstrap-introduction#readme",
+  "dependencies": {
+    "bootstrap": "^4.5.3",
+    "jquery": "^3.5.1"
+  }
 }

@@ -5,9 +5,93 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <!-- CSS -->
-    <link rel="stylesheet" href="./public/css/app.css">
+    <link rel="stylesheet" href="/public/css/app.css">
 </head>
 <body>
     
+    <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+        <a class="navbar-brand text-white" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link text-white" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Dropdown
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+
+      <div class="jumbotron">
+        <h1 class="display-4">Hello, world!</h1>
+        <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+        <hr class="my-4">
+        <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+        <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+      </div>
+<!-- Container -->
+      <div class="container">
+        <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, delectus! <span class="badge bg-success">New</span></h1>
+        <span class="badge bg-primary">Primary</span>
+        <span class="badge rounded-pill bg-danger">Danger</span>
+        <span class="badge bg-warning text-dark">Warning</span>
+      </div>
+
+<!-- Container fluid -->
+      <div class="container-fluid">
+        <h1>Fluid</h1>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <div class="w-50 mx-auto">
+            <div class="alert alert-danger" role="alert">Documentation</div>
+        </div>
+      </div>
+
+<!-- Section foncée -->
+<section class="bg-dark p-5">
+    <div class="container">
+        <h3 class="text-white text-center">Lorem ipsum dolor sit amet consectetur.</h3>
+        <h3 class="text-white text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</h3>
+        <div class="alert alert-light" role="alert">Alert</div>
+    </div>
+</section>
+
+<!-- Row -->
+<section>
+    <h3></h3>
+    <ul class="list-group ">
+        <li class="list-group-item bg-primary">Lorem, ipsum.</li>
+        <li class="list-group-item">Lorem ipsum dolor sit amet.</li>
+        <li class="list-group-item">Lorem ipsum dolor sit amet consectetur. <span class="badge badge-sucess"></span></li>
+    </ul>
+</section>
+
+    <!-- SCRIPT BOOTSTRAP -->
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.js"></script>
+    <!-- JQUERY -->
+    <script src="./node_modules/jquery/dist/jquery.js"></script>
 </body>
 </html>
